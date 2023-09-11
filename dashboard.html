@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+     <!-- EXTERNAL CSS FILE -->
+     <link rel="stylesheet" href="inde.css">
+     <!-- BOOTSTRAP CSS CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     <!-- BOOTSTRAP Icon CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+     <!-- ANIMATION CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<style>
+    #createEvent-btn{
+        border: none;
+        color: white;
+        background-color:rgb(63, 19, 117) ;
+        border-radius: 5px;
+        padding: 8px 15px;
+        margin-bottom: 20px;
+    }
+    #createEvent-btn:hover{
+        color:rgb(63, 19, 117);
+        background-color: white;
+        border: 1px solid rgb(63, 19, 117);
+    }
+</style>
+<body style="background-color: rgb(245, 244, 244);">
+    <nav class="navbar bg-body-tertiary shadow fixed-top" style="background-color: rgb(63, 19, 117);">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" style="color:grey" href="index.html">
+                <img src="images/logo/brand logo.png" alt="Logo" width="50" class="d-inline-block align-text-center">
+                <span class="text-light">TechWorld</span>
+              </a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+     
+    <div class="container" style="margin-top: 120px; margin-bottom: 100px;">
+        <div class="row">
+            <!-- DESKTOP VIEW OF PROFILE SECTION -->
+            <div class="col-md-3 bg-white shadow d-none d-md-inline-block" style="border:1px solid rgb(203, 199, 199); border-radius: 5px">
+                <img class="rounded-circle mt-2" src="images/Peter Ajala photo~2.png" alt="user image" width="30%">
+                <p class="fw-bold fs-5" style="color: rgba(63, 19, 117, 0.924);">Peter Ajala</p>
+                <p class="fw-semibold">Software Engineer <br> Nigerian </p>
+                <div class="row fw-semibold my-5">
+                    <div class="col">
+                        <p align="center">Followers</p>
+                        <p align="center" style="margin-top:-20px">200</p>
+                    </div>
+                    <div class="col">
+                        <p align="center">Following</p>
+                        <p align="center" style="margin-top:-20px">53</p>
+                    </div>
+                    <div class="col">
+                        <p align="center">Post</p>
+                        <p align="center" style="margin-top:-20px">9</p>
+                    </div>  
+                </div>
+                <hr style="margin-top: -50px; color: black;">
+                <div style="margin-bottom: 100px;">
+                    <p class="fw-semibold">SKILLS</p>
+                    <ul style="list-style-type: none; margin-left: -30px;">
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>NodeJS</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                    </ul>
+                </div>
+                
+                <hr style="color: black;">
+                <div>
+                    <a class="text-decoration-none text-black" href="#"><p class="fw-semibold" align="center"><i class="bi bi-gear me-2 fw-bold"></i>Edit Profile</p></a>
+                </div>
+               
+            </div>
+            
+            <div class="col-md-3 d-md-none mb-5">
+                <img class="rounded-circle mt-2" src="images/Peter Ajala photo~2.png" alt="user image" width="30%">
+                <p class="fw-bold fs-1" style="color: rgba(63, 19, 117, 0.924);">Peter Ajala</p>
+                <p class="fw-semibold">Software Engineer <br> Nigerian </p>
+                <div class="row fw-semibold my-5">
+                    <div class="col">
+                        <p align="center">Followers</p>
+                        <p align="center" style="margin-top:-20px">200</p>
+                    </div>
+                    <div class="col">
+                        <p align="center">Following</p>
+                        <p align="center" style="margin-top:-20px">53</p>
+                    </div>
+                    <div class="col">
+                        <p align="center">Post</p>
+                        <p align="center" style="margin-top:-20px">9</p>
+                    </div>  
+                </div>
+                <hr style="margin-top: -50px; color: black;">
+                <div class="mb-5">
+                    <p class="fw-semibold">SKILLS</p>
+                    <ul style="list-style-type: none; margin-left: -30px; display: flex;">
+                        <li class="me-3">JavaScript</li>
+                        <li class="me-3">React</li>
+                        <li class="me-3">Angular</li>
+                        <li class="me-3">NodeJS</li>
+                        <li class="me-3">PHP</li>
+                        <li>Laravel</li>
+                    </ul>
+                </div>
+                <hr>
+               
+            </div>
+
+            <div align="center" class="col-md-6">
+                <h4 style="color: rgba(63, 19, 117, 0.924);" class="fw-bold">EVENT SCHEDULE</h4>
+                <div>
+                    <h5 style="color: rgba(63, 19, 117, 0.924);" class="fw-semi
+                    ">EVENT CREATED</h5>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/events/sqi bootcamp.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h6>Summer ICT Bootcamp</h6>
+                                  <p class="card-text fw-bold" style="font-size: 10px; color: rgba(63, 19, 117, 0.924);">Sat, Aug 5, 10:00 AM</p>
+                                  
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            
+                        </div>
+                        <div class="col-md-4">
+                            
+                        </div>
+                    </div>
+                      
+                       
+                     
+                      
+                </div>
+                <div>
+                    <h5 class="mt-5 mb-4 fw-semibold" style="color: rgba(63, 19, 117, 0.924);">UPCOMING EVENTS TO ATTEND</h5>
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="images/events/https___cdn.evbuc.com_images_411416669_771258036313_1_original.png" class="card-img-top" alt="...">
+                                <div style="height: 120px;" class="card-body">
+                                  <h6>Software Architecture Conference</h6>
+                                  <p class="card-text fw-bold" style="font-size: 10px; color: rgba(63, 19, 117, 0.924);">Fri, May 26, 10:00 AM</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="images/events/https___cdn.evbuc.com_images_438491549_189228212761_1_original.png" class="card-img-top" alt="...">
+                                <div style="height: 120px;" class="card-body">
+                                  <h6>Tech Unite Africa 2.0</h6>
+                                  <p class="card-text fw-bold" style="font-size: 10px; color: rgba(63, 19, 117, 0.924);">Wed, March 29, 9:00 AM</p>
+                                  
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="images/events/https___cdn.evbuc.com_images_352210419_320798794691_1_original.jpeg" class="card-img-top" alt="...">
+                                <div style="height: 120px;" class="card-body">
+                                  <h6>Lagos Tech Fest</h6>
+                                  <p class="card-text fw-bold" style="font-size: 10px; color: rgba(63, 19, 117, 0.924);">Wed, Feb 15, 8:00 AM</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-none d-md-inline-block" style="background-color: rgb(228, 228, 228); border: 1px solid rgb(209, 207, 207); border-radius: 5px;">
+                <div>
+                    <p class="mt-5">To contribute to the growth of technology, click on the button below to create an impactful tech event.</p>
+                    <button id="createEvent-btn">Create Event</button>
+                </div>
+                <div class="mt-4">
+                    <h6>List of Events</h6>
+                    <ul>
+                        <li>Conference Electronic Show</li>
+                        <li>MetaSummit</li>
+                        <li>AIBC Africa</li>
+                        <li>Civo Navigate</li>
+                    </ul>
+                </div>
+                <div class="mt-5">
+                    <h6>List of Attendees</h6>
+                    <ul>
+                        <li>Adekunle Funmi</li>
+                        <li>Babalola Micheal</li>
+                        <li>Chibuzor Friday</li>
+                        <li>Haruna Azeez</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <!-- MOBILE VIEW OF EVENT LIST -->
+            <div class="col-md-3 d-md-none">
+                <div>
+                    <p class="mt-5">To contribute to the growth of technology, click on the button below to create an impactful tech event.</p>
+                    <button id="createEvent-btn">Create Event</button>
+                </div>
+                <div class="mt-4">
+                    <h6>List of Events</h6>
+                    <ul>
+                        <li>Conference Electronic Show</li>
+                        <li>MetaSummit</li>
+                        <li>AIBC Africa</li>
+                        <li>Civo Navigate</li>
+                    </ul>
+                </div>
+                <div class="mt-5">
+                    <h6>List of Attendees</h6>
+                    <ul>
+                        <li>Adekunle Funmi</li>
+                        <li>Babalola Micheal</li>
+                        <li>Chibuzor Friday</li>
+                        <li>Haruna Azeez</li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+           
+            <div class="d-none d-md-inline">
+                <div id="page-footer" align="center" class="row">
+                    <div class="col-md-4">
+                        <h6>TECHEVENT <sup>PRO</sup></h6>
+                    </div>
+                    <div class="col-md-4">
+                        <P><i class="bi bi-c-circle"></i> Copyright 2023 by TimexDev</P>
+                    </div>
+                    <div class="col-md-4">
+                        <a href=""><i class="bi bi-twitter fs-4 pe-3 text-black"></i></a>
+                        <a href=""><i class="bi bi-facebook fs-4 pe-3 text-black"></i></a>
+                        <a href=""><i class="bi bi-instagram fs-4 pe-3 text-black"></i></a>
+                        <a href=""><i class="bi bi-linkedin fs-4 pe-3 text-black"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-inline d-md-none">
+                <div id="page-footer" align="center" class="row pt-5">
+                    <div class="col-md-4">
+                        <h6>TECHEVENT <sup>PRO</sup></h6>
+                    </div>
+                    <div class="col-md-4">
+                        <a href=""><i class="bi bi-twitter fs-4 pe-3 text-black"></i></a>
+                        <a href=""><i class="bi bi-facebook fs-4 pe-3 text-black"></i></a>
+                        <a href=""><i class="bi bi-instagram fs-4 pe-3 text-black"></i></a>
+                        <a href=""><i class="bi bi-linkedin fs-4 pe-3 text-black"></i></a>
+                    </div>
+                    <div class="col-md-4 pt-2 pb-5">
+                        <P><i class="bi bi-c-circle"></i> Copyright 2023 by TimexDev</P>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
